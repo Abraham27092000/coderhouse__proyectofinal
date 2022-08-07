@@ -1,115 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
 <!---------------------------------------HEAD--------------------------------------->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--------------LIBRERIAS-------------->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--------------FRAMEWORK-------------->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-----------------CSS----------------->
     <link rel="stylesheet" href="../css/style.css">
     <title>AllTogether</title>
 </head>
+<!---------------------------------------BODY--------------------------------------->
+
+<body class="grid__container">
 <!--------------------------------------HEADER-------------------------------------->
-<body class="grid__container"> 
-    <header class="header header__lista">
-        <div data-aos="fade-down" data-aos-duration="1000">
-            <a id=hero__titulo__enlace href="../index.html">
-                <h1 class="hero__titulo">All Together</h1>
-            </a>
-        </div>
-            <div>
-                <nav class="navbar">
-                    <div data-aos="fade-right" data-aos-duration="1000">
-                        <ul>
-                            <div class="navbar__flexbox">
-                                <li><a href="../index.html">Inicio</a>
-                            </div>
-                            <div class="navbar__flexbox">
-                                <li><a href="./acercade.html">Acerca de nosotros</a></li>
-                            </div>
-                            <div class="navbar__flexbox">
-                                <li><a href="./productos.html">Productos</a></li>
-                            </div>
-                            <div class="navbar__flexbox">
-                                <li><a href="./membresia.html">Membresía</a></li>
-                            </div>
-                            <div class="navbar__flexbox">
-                                <li><a href="./contacto.html">Contacto</a></li>
-                            </div>
+    <header class="header">
+        <div class="" data-aos="fade-down" data-aos-duration="1000">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container-fluid">
+                    <div>
+                        <a class="navbar-brand" href="../index.html">
+                            <h1 class="header__titulo">All Together</h1>
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        style="background-color: #29515b" data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse header__lista__flexbox" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item header__lista">
+                                <a class="nav-link active text-white" aria-current="page"
+                                    href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item header__lista">
+                                <a class="nav-link active text-white" href="./acercade.html">Acerca de
+                                    nosotros</a>
+                            </li>
+                            <li class="nav-item header__lista">
+                                <a class="nav-link active text-white" href="./productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item header__lista">
+                                <a class="nav-link active text-white" aria-current="page"
+                                    href="./membresia.html">Membresia</a>
+                            </li>
+                            <li class="nav-item header__lista">
+                                <a class="nav-link active text-white" aria-current="page"
+                                    href="./contacto.html">Contacto</a>
+                            </li>
                         </ul>
                     </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
     </header>
 <!---------------------------------------MAIN--------------------------------------->
     <main class="main">
         <section>
-            <h2 class="acercade__titulo pages__acercade__titulo" data-aos="fade-right" data-aos-duration="1000">Acerca de Nosotros:</h2>
-                <div class="acercade__flexbox acercade__flexbox__responsive">
-                    <div data-aos="fade-right" data-aos-duration="1000">
-                        <p class="acercade__texto pages__acercade__texto">Lorem ipsum dolor, sit amet consectetur 
-                        adipisicing elit. Iusto magni sequi unde eum assumenda magnam aspernatur sunt, earum non, 
-                        repellendus quas vel nesciunt ipsam, adipisci itaque vero nulla corrupti alias?Lorem ipsum 
-                        dolor sit amet consectetur, adipisicing elit. Modi amet doloremque a molestias, numquam id 
-                        quae! Atque consequatur ipsam incidunt aliquam voluptatibus, molestias iusto vitae iste beatae 
-                        porro velit odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa maiores sequi 
-                        reprehenderit obcaecati officia ex expedita itaque exercitationem, eius quidem doloribus quo 
+            <h2 class="acercade__titulo pages__acercade__titulo" data-aos="fade-right" data-aos-duration="1000">Acerca
+                de Nosotros:</h2>
+            <div class="acercade__flexbox acercade__flexbox__responsive">
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <p class="acercade__texto pages__acercade__texto">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Iusto magni sequi unde eum assumenda magnam aspernatur sunt, earum non,
+                        repellendus quas vel nesciunt ipsam, adipisci itaque vero nulla corrupti alias?Lorem ipsum
+                        dolor sit amet consectetur, adipisicing elit. Modi amet doloremque a molestias, numquam id
+                        quae! Atque consequatur ipsam incidunt aliquam voluptatibus, molestias iusto vitae iste beatae
+                        porro velit odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa maiores sequi
+                        reprehenderit obcaecati officia ex expedita itaque exercitationem, eius quidem doloribus quo
                         aliquam. Expedita, nihil.
-                        </p>
-                    </div>
-                    <div class="acercade__flexbox" data-aos="flip-up" data-aos-duration="1500">
-                        <img class="acercade__img pages__acercade__img" src="../img/acercadenosotros.png" alt="acercade">
-                    </div>
+                    </p>
                 </div>
+                <div class="acercade__flexbox" data-aos="flip-up" data-aos-duration="1500">
+                    <img class="acercade__img pages__acercade__img" src="../img/acercadenosotros.png" alt="acercade">
+                </div>
+            </div>
         </section>
     </main>
 <!--------------------------------------FOOTER-------------------------------------->
-<footer class="footer" id="contacto__redes">
-    <div class="footer__lista footer__flexbox" data-aos="fade-right" data-aos-duration="1000">
-        <div class="footer__flexbox__border">
-            <h3 class="informacion__titulo">Información:<h3></h3>
-                <ul>
-                    <li>
-                        <a href="./acercade.html">Acerca de nosotros</a>
-                    </li>
-                    <li>
-                        <a href="./politicadeprivacidad.html">Política de Privacidad</a>
-                    </li>
-                </ul>
-        </div>
-        <div class="footer__flexbox__border">
-            <h3 class="tienda__titulo">Tienda:</h3>
-                <ul>
-                    <li>
-                        <a href="./productos.html">Productos</a>
-                    </li>
-                    <li>
-                        <a href="./membresia.html">Membresía</a>
-                    </li>
-                </ul>
-        </div>
-        <div class="footer__flexbox__border"> 
-            <h3 class="contacto__redes__titulo">Contacto/Redes Sociales:<h3></h3>
-                <ul>
-                    <li>
-                        <a href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            <h3 class="redes__sociales">Redes Sociales:</h3>
-        <div class="footer__flexbox__border">
-            <div class="footer__redes__img">
-                <a target="_blank" href="https:/www.facebook.com"><img src="../img/facebook.png" alt="Logo"></a>
-                <a target="_blank" href="https:/twitter.com"><img src="../img/twitter.png" alt="Logo"></a>
-                <a target="_blank" href="https:/www.whatsapp.com"><img src="../img/whatsapp.png" alt="Logo"></a>
+    <footer class="footer">
+        <div class="container" data-aos="zoom-in" data-aos-duration="1000">
+            <!-------Descripcion-------->
+            <section class="footer__texto text-center">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+                    repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+                    eum harum corrupti dicta, aliquam sequi voluptate quas.
+                </p>
+            </section>
+            <!----------Lista----------->
+            <div class="footer__flexbox" data-aos="fade-right" data-aos-duration="1000">
+                <div class="footer__informacion__flexbox">
+                    <h3 class="footer__titulo">Información:<h3></h3>
+                        <ul class="footer__lista">
+                            <li class="footer__lista__hover">
+                                <a href="./acercade.html">Acerca de nosotros</a>
+                            </li>
+                            <li class="footer__lista__hover">
+                                <a href="./politicadeprivacidad.html">Política de Privacidad</a>
+                            </li>
+                        </ul>
+                </div>
+                <div class="footer__tienda__flexbox">
+                    <h3 class="footer__titulo">Tienda:</h3>
+                    <ul class="footer__lista">
+                        <li class="footer__lista__hover">
+                            <a href="./productos.html">Productos</a>
+                        </li>
+                        <li class="footer__lista__hover">
+                            <a href="./membresia.html">Membresía</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__contacto__flexbox">
+                    <h3 class="footer__titulo">Contacto:<h3></h3>
+                        <ul class="footer__lista">
+                            <li class="footer__lista__hover">
+                                <a href="./contacto.html">Formulario de contacto:</a>
+                            </li>
+                        </ul>
+                </div>
+                <!------Redes Sociales------>
+                <div class="footer__redes__flexbox">
+                    <h4 class="text-uppercase footer__titulo__redes">Redes Sociales:</h5>
+                        <section>
+                            <a class="btn btn-outline-light btn-floating" target="_blank"
+                                href="https:/www.whatsapp.com"><img src="../img/whatsapp.svg" alt="Logo"></a>
+                            <a class="btn btn-outline-light btn-floating" target="_blank"
+                                href="https:/www.telegram.com"><img src="../img/telegram.svg" alt="Logo"></a>
+                            <a class="btn btn-outline-light btn-floating" target="_blank"
+                                href="https:/www.facebook.com"><img src="../img/facebook.svg" alt="Logo"></a>
+                            <a class="btn btn-outline-light btn-floating" target="_blank" href="https:/twitter.com"><img
+                                    src="../img/twitter.svg" alt="Logo"></a>
+                        </section>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+        <!-----Copyright----->
+        <div class="footer__copyright footer__copyright__flexbox footer__copyright__hover">
+            © 2022 Copyright:
+            <a class="text-white"
+                href="https://abraham27092000.github.io/coderhouse__proyectofinal/">AllTogether.com</a>
+        </div>
+        <!-----Copyright----->
+    </footer>
+<!------------------------------JS-------------------------------->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-AOS.init();
-</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>

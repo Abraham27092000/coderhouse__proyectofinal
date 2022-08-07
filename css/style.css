@@ -9,66 +9,34 @@ html, body{
     min-height: 100vh;
 }
 
-/*----------------------scroll----------------------*/
-
-body::-webkit-scrollbar{
-    width: 0.5em;
-    background: #0f1011;
-}
-
-body::-webkit-scrollbar-thumb{
-    background-image: radial-gradient(#1d1b2f,#0e5569);
-    border-radius: 4em;
-}
-
 /*-------------------------------------------HEADER-------------------------------------------*/
-header nav ul{
-    list-style:none;
-    padding:5px;
+.header{
+    background-color: #18181B;
 }
 
-.hero__titulo{
-    color: black;
+.header__titulo{
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    border: double white;
-    background-image: radial-gradient(aqua,#6C0E22);
-    margin:10px;
-    text-indent: 1%;
-    font-size: 3em;
+    margin-top: 18px;
+    margin-left: 30px;
+    font-weight: 600;
+    padding-top: 0.5em;
 }
 
 #hero__titulo__enlace{
     text-decoration: none;
 }
 
-.header__lista nav ul li a{
-    color:#1e233b;
-    text-decoration: none;
-    font-weight: 1000;
-    padding: 15px;
-    font-size: 1.2em;
-}
-
-/*---------Hover, transition...----------*/
-
-.hero__titulo:hover{
-    zoom:105%;
-}
-
-.header__lista nav ul li a:hover{
-    zoom: 110%;
-    
-}
-
-
 /*--------------------------------------------MAIN-------------------------------------------*/
 /*-------------------------index.html--------------------------*/
 .hero__video{
     width:100%;
+    height: 25em;
 }
 
 .hero__texto{
-    color:rgb(182, 169, 169);
+    color:black;
+    font-weight: 500;
     text-indent: 2%;
     font-style:normal;
     font-size:xx-large;
@@ -83,7 +51,8 @@ header nav ul{
 /*---productos y membresia---*/
 
 .productos__membresia{
-    color: rgb(199, 189, 189);
+    color:black;
+    font-weight: 500;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.6em;
@@ -91,38 +60,35 @@ header nav ul{
 }
 
 .productos__titulo__index{
-    color:rgb(180, 206, 206);
+    color:black;
     padding: 10px;
     margin-top: 5px;
     font-size: 1.4em;
 }
 
 .productos__ventas{
-    color:rgb(182, 169, 169);
+    color:black;
     margin:20px;
     font-size: 1.2em;
 }
 
 .productos__aviso{
-    color:whitesmoke;
+    color:#1E1C1D;
     font-style: italic;
     font-size: small;
     margin-left: 20px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .productos__index__img{
     width:100%;
-    background-image: radial-gradient(#9f291a,#6C0E22);
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    background-image: radial-gradient(#29515b,#0e345b);
     margin: 10px;
     margin-bottom: 2.3em;
 }
 
 .membresia__titulo__index{
-    color:rgb(180, 206, 206);
+    color: black;
     padding: 10px;
     margin-top: 5px;
     font-size: 1.4em;
@@ -130,124 +96,65 @@ header nav ul{
 
 
 .membresia__ventas{
-    color:rgb(182, 169, 169);
+    color:black;
     margin: 20px;
     font-size: 1.2em;
 }
 
 .membresia__aviso{
-    color:whitesmoke;
+    color:#1E1C1D;
     font-style: italic;
     font-size: small;
     margin-left: 20px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .membresia__index__img{
     width:100%;
-    background-image: radial-gradient(#9f291a,#6C0E22);
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    background-image: radial-gradient(#29515b,#0e345b);
     margin: 10px;
     margin-bottom: 2.3em;
 }
 
-/*-------------Hover index-------------*/
+/*------------------------------FOOTER-------------------------------*/
 
-.productos__index__img:hover{
-    transform: scale(1.1);
-    border-radius: 5% 0 0 0;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+.footer{
+    background-color: #18181B;
+    padding: 1em;
 }
 
-.membresia__index__img:hover{
-    transform: scale(1.1);
-    border-radius: 5% 0 0 0;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+.footer__titulo{
+    color: whitesmoke;
+    margin-left: 1em;
 }
 
-/*-----------------------------------------FOOTER*------------------------------------------*/
-
-footer{
-    background-color:#3B91A4;
+.footer__titulo__redes{
+    color: whitesmoke;
 }
 
-.footer__lista{
-    display:flex;
-    justify-content:space-around;
-    align-items:space-around;
-}
-
-.footer__lista ul{
-    list-style:none;
+.footer__texto{
+    color: white
 }
 
 .footer__lista li a{
-    color:#1e233b;
-    text-decoration: none;
-    font-weight: 500;
-    padding: 5px;
-    font-weight: 1000;
-    font-size: 1.2em;
+    color: white;
+    list-style:none;
+    text-decoration:none;
 }
 
-/*-------------------------información-------------------------*/
-
-.informacion__titulo{
-    color:#D8F0F1;
-    margin-left:20%;
-    margin-bottom: 10%;
-    
+.footer__copyright{
+    color:whitesmoke;
+    background: rgba(0, 0, 0, 0.2);
 }
 
-/*-------------------------Tienda-------------------------*/
-
-.tienda__titulo{
-    color:#D8F0F1;
-    margin-left:20%;
-    margin-bottom: 10%;
-    
-}
-
-/*-------------------------Contacto y Redes Sociales------------------------*/
-
-.contacto__redes__titulo{
-    color:#D8F0F1;
-    margin-bottom: 4%;
-    
-}
-
-.redes__sociales{
-    color:#D8F0F1;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 
-    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size:1em;
-}
-
-.footer__redes__img a img{
-    width: 40px;
-    height: 40px;
-    margin:10px;
-}
-
-/*-------------Hover productos-------------*/
-
-.footer__lista li a:hover{
-    zoom: 110%;
-}
-
-.footer__redes__img a img:hover{
-    transform: scale(1.1);
+.footer__copyright a{
+    margin-left: 0.5em;
 }
 
 /*------------------------acercade.html--------------------------*/
 .acercade__titulo{
-    color:rgb(199, 189, 189);
+    color:black;
+    font-weight: 500;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.6em;
@@ -256,7 +163,7 @@ footer{
 }
 
 .acercade__texto{
-    color:rgb(182, 169, 169);
+    color:black;
     font-style:normal;
     font-size:xx-large;
     text-align:justify;
@@ -268,46 +175,18 @@ footer{
 }
 
 .acercade__img{
-    background-image: radial-gradient(#9f291a,#6C0E22);
+    background-image: radial-gradient(#29515b,#0e345b);
     margin: 1em;
     height:20em;
     width:20em;
     margin-bottom:2.5em;
 }
 
-/*-------------Hover acercade-------------*/
-
-.acercade__img:hover{
-    transform: scale(1.1);
-}
-
-/*-------------------------contacto.html--------------------------*/
-
-.table__titulo{
-    color:rgb(199, 189, 189);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin-left: 2em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    font-size: 1.6em;
-}
-
-.table__label{
-    color:aliceblue;
-    margin-left: 1em;
-    margin-bottom: 1em;
-    font-size: 1.2em;
-}
-
-.table__texto{
-    color:beige;
-}
-
 /*-------------------------membresia.html-------------------------*/
 
 .membresia__titulo{
-    color:rgb(199, 189, 189);
+    color:black;
+    font-weight: 500;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.6em;
@@ -316,7 +195,7 @@ footer{
 }
 
 .membresia__texto{
-    color:rgb(182, 169, 169);
+    color:black;
     font-style:normal;
     font-size:xx-large;
     text-align:left;
@@ -325,6 +204,7 @@ footer{
     font-size: 1.2em;
     margin-top: 1.5em;
     margin-left: 1em;
+    margin-right: 1em;
 
 }
 
@@ -332,33 +212,25 @@ footer{
     margin: 1em;
     height:20em;
     width:20em;
-    background-image: radial-gradient(#9f291a,#6C0E22);
+    background-image: radial-gradient(#29515b,#0e345b);
     margin-bottom:2.5em;
-}
-
-/*-------------Hover membresia-------------*/
-
-.pages__membresia__img:hover{
-    transform: scale(1.1);
-    border-radius: 25% 0 0 0;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
 }
 
 /*-------------------politicadeprivacidad.html--------------------*/
 
 .politicadeprivacidad__titulo{
-    color:rgb(199, 189, 189);
+    color:black;
+    font-weight: 500;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-left: 1em;
     margin-top:1em;
     text-indent: 1.5%;
+    font-size: 1.6em;
 }
 
 .politicadeprivacidad__texto{
-    color:rgb(182, 169, 169);
+    color:black;
     font-family:'Courier New', Courier, monospace;
     margin-left: 2em;
     margin-right: 1em;
@@ -369,7 +241,8 @@ footer{
 /*------------------------productos.html--------------------------*/
 
 .productos__titulo{
-    color:rgb(199, 189, 189);
+    color:black;
+    font-weight: 500;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.6em;
@@ -379,27 +252,23 @@ footer{
 }
 
 .productos__televisores__titulo{
-    color: rgb(180, 206, 206);
+    color:black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 22.4px;
+    font-size: 1.4em;
     margin-top: 1em;
     margin-bottom: 0.5em;
 }
     
 .productos__televisores__aviso{
-    color:whitesmoke;
+    color:#1E1C1D;
     font-style: italic;
     font-size: small;
-    font-weight: 900;
-    font-size: 19.2px;
+    font-weight: 500;
 }
 
 .productos__televisores__img{
-    background-image: radial-gradient(#9f291a,#6C0E22);
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    background-image: radial-gradient(#29515b,#0e345b);
     height:310px;
     width:310px;
     margin-top: 1em;
@@ -407,7 +276,7 @@ footer{
 
 
 .productos__ordenadores__titulo{
-    color: rgb(180, 206, 206);
+    color:black;;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.4em;
@@ -416,25 +285,20 @@ footer{
 }
 
 .productos__ordenadores__aviso{
-    color:whitesmoke;
+    color:#1E1C1D;
     font-style: italic;
     font-size: small;
-    font-weight: 900;
-    font-size:19.2px;
 }
 
 .productos__ordenadores__img{
-    background-image: radial-gradient(#9f291a,#6C0E22);
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    background-image: radial-gradient(#29515b,#0e345b);
     height:310px;
     width:310px;
     margin-top: 1em;
 }
 
 .productos__moviles__titulo{
-    color: rgb(180, 206, 206);
+    color:black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.4em;
@@ -443,18 +307,13 @@ footer{
 }
 
 .productos__moviles__aviso{
-    color:whitesmoke;
+    color:#1E1C1D;
     font-style: italic;
     font-size: small;
-    font-weight: 900;
-    font-size:19.2px;
 }
 
 .productos__moviles__img{
-    background-image: radial-gradient(#9f291a,#6C0E22);
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    background-image: radial-gradient(#29515b,#0e345b);
     height:320px;
     width:320px;
     margin-top: 1em;
@@ -462,7 +321,7 @@ footer{
 }
 
 .productos__consolas__titulo{
-    color: rgb(180, 206, 206);
+    color:black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1.4em;
@@ -471,89 +330,33 @@ footer{
 }
 
 .productos__consolas__aviso{
-    color:whitesmoke;
+    color:#1E1C1D;
     font-style: italic;
     font-size: small;
-    font-weight: 900;
-    font-size: 19.2px;
 }
 
 .productos__consolas__img{
-    background-image: radial-gradient(#9f291a,#6C0E22);
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    background-image: radial-gradient(#29515b,#0e345b);
     height:320px;
     width:320px;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
-/*-------------Hover productos-------------*/
-
-.productos__televisores__img:hover{
-    transform: scale(1.1);
-    border-radius: 25% 0 0 0;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-.productos__ordenadores__img:hover{
-    transform: scale(1.1);
-    transform: scale(1.1);
-    border-radius: 25% 0 0 0;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-.productos__moviles__img:hover{
-    transform: scale(1.1);
-    transform: scale(1.1);
-    border-radius: 25% 0 0 0;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-.productos__consolas__img:hover{
-    transform: scale(1.1);
-    transform: scale(1.1);
-    border-radius: 25% 0 0 0;
-    border-top-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
 /*------------------------grid__flexbox__layout--------------------------*/
 
 .header{
     grid-area:auto;
-    background-color: #283539;
-    padding: 5px;
 }
 
-.navbar ul{
-    grid-area:auto;
+.header__lista__flexbox{
     display:flex;
-    list-style:none;
-    padding:5px;
-    justify-content: space-around;
+    justify-content: end;
 }
-
-.navbar__flexbox{
-    list-style:none;
-    padding:5px;
-    justify-content: space-around;
-    background-image: radial-gradient(aqua,#6C0E22);
-    border: solid #a6b1b4;
-}
-
 
 .main{
     grid-area:auto;
-    background-color: #201670;
+    background-color: #3F79C4;
 }
 
 .productos__membresia__img{
@@ -565,21 +368,16 @@ footer{
 
 .footer{
     grid-area:auto;
-    padding: 1%;
-    background-color: #283539;
 }
 
 .footer__flexbox{
     display:flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 
-.footer__flexbox__border{
+.footer__copyright__flexbox{
     display:flex;
-    flex-direction:column;
-    background-image: radial-gradient(aqua,#6C0E22);
-    border: solid #a6b1b4;
-    
+    justify-content:center;
 }
 
 /*--------------acercade__pages---------------*/
@@ -616,7 +414,7 @@ footer{
     flex-wrap: wrap
 }
 
-/*--------------------------------------------------------GRID__CONTAINER-------------------------------------------------*/
+/*----------------------------------------GRID__CONTAINER-------------------------------------*/
 .grid__container{
     display:grid;
     grid-template-areas:
@@ -625,6 +423,51 @@ footer{
         "main"
         "footer";
 }
+
+/*------------------------------PSEUDOCLASES------------------------------*/
+
+/*----------------------scroll----------------------*/
+
+body::-webkit-scrollbar{
+    width: 0.5em;
+    background: #0f1011;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-image: radial-gradient(#1d1b2f,#0e5569);
+    border-radius: 4em;
+}
+
+/*-----------------Header-----------------*/
+
+.header__titulo:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.header__lista:hover{
+    transform: scale(1.1);
+}
+
+/*------------------Main------------------*/
+
+.main__img:hover{
+    transform: scale(1.1); 
+    border-radius: 1em;
+    transition:3s;
+    transition-timing-function: ease-in;
+}
+
+/*-----------------Footer-----------------*/
+
+.footer__lista__hover:hover{
+    transform: scale(1.1);
+}
+
+.footer__copyright__hover:hover{
+    transform: scale(1.1);
+}
+
 /*---------------------------------------------------------RESPONSIVE--------------------------------------------------------*/
 
 /*-------------------------TABLET------------------------*/
@@ -647,7 +490,7 @@ footer{
 
     .hero__video{
         width: 45%;
-        height: 200px;
+        height: 15em;
     }
 
     .hero__texto{
@@ -659,7 +502,7 @@ footer{
 
     .productos__membresia{
         margin-top: 1em;
-        margin-left: 10%;
+        margin-left: 5%;
     }
 
     .main{
@@ -676,7 +519,6 @@ footer{
     }
 
     .tienda__titulo{
-        
         display:flex;
         margin-right: 3em
     }
@@ -801,42 +643,30 @@ margin-right: 1em;
 
 .productos__televisores__img{
     margin-bottom: 1em;
-    height:23em;
-    width:23em;
+    height:20.5em;
+    width:20.5em;
+    margin-bottom: 1.5em;
 }
 
 .productos__ordenadores__img{
     margin-bottom:1em;
-    height:20em;
-    width:20em;
+    height:13em;
+    width:13em;
 }
 
 .productos__moviles__img{
     margin-bottom: 1em;
-    height:20em;
-    width:20em;
+    height:13em;
+    width:13em;
 }
 
 .productos__consolas__img{
     margin-bottom: 1em;
-    height:20em;
-    width:20em;
-}
-
-/*-------------Contacto/main-------------*/
-
-.table__titulo{
-    font-size: 1.4em;
-    margin-top:2em;
-}
-
-.table__label{
-    font-size: 1em;
-    margin-bottom: 2em;
+    height:13em;
+    width:13em;
 }
 
 }
-
 /*-------------------------MOVIL------------------------*/
 
 @media screen and (max-width:749px){  
@@ -846,7 +676,10 @@ margin-right: 1em;
         display:flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
 
+    .header__lista__flexbox{
+        justify-content:start;
     }
 
     .hero{
@@ -877,6 +710,7 @@ margin-right: 1em;
         font-size: 1.4em;
         margin-top: 0.5em;
     }
+
 
     .productos__titulo__index{
         font-size: 1.2em;
@@ -941,41 +775,10 @@ margin-right: 1em;
         width:100%;
     }
 
-    .footer{
-        width:100%;
-    }
-
-    .footer li a{
-        justify-content: center;
-    }
-
     .footer__flexbox{
         display:flex;
         flex-direction: column;
-    }
-    
-    .footer__flexbox__border{
-        display:flex;
-        background-image: radial-gradient(aqua,#6C0E22);
-        flex-direction: column;
-        border: solid #a6b1b4;
-    }
-
-    .informacion__titulo{
-        margin:0;
-    }
-
-    .tienda__titulo{
-        margin:0;
-    }
-
-    .contacto__redes__titulo{
-        margin:0;
-    }
-    
-    .footer__redes__img{
-        display:flex;
-        justify-content: space-around;
+        margin-bottom: 1em;
     }
 
 /*----------------Acercade----------------*/
@@ -985,8 +788,6 @@ margin-right: 1em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     font-size: 1.4em;
-    
-
 }
 
 .acercade__texto{
@@ -1045,38 +846,44 @@ margin-right: 1em;
     .productos__televisores__titulo{
         font-size: 1.2em;
         margin-top: 0.5em;
+        margin-left: 0.5em;
     }
 
     .productos__ordenadores__titulo{
         font-size: 1.2em;
         margin-top: 0.5em;
+        margin-left: 0.5em;
     }
 
     .productos__moviles__titulo{
         font-size: 1.2em;
         margin-top: 0.5em;
+        margin-left: 0.5em;
     }
 
     .productos__consolas__titulo{
         font-size: 1.2em;
         margin-top: 0.5em;
+        margin-left: 0.5em;
     }
 
     .productos__televisores__aviso{
-        font-size: 1.1em;
+        margin-left: 0;
         margin-bottom: 0.5em;
     }
 
     .productos__ordenadores__aviso{
-        font-size: 1em;
+        margin-left: 0;
     }
 
     .productos__moviles__aviso{
-        font-size: 1em;
+        margin-left: 0;
+        
     }
 
     .productos__consolas__aviso{
-        font-size: 1em;
+        margin-left: 0;
+        
     }
 
     .productos__televisores__img{
@@ -1086,31 +893,21 @@ margin-right: 1em;
 
     .productos__ordenadores__img{
         margin-top: 0.5em;
-        width: 10em;
-        height: 10em;
+        width: 7.5em;
+        height: 7.5em;
     }
 
     .productos__moviles__img{
         margin-top: 0.5em;
-        width: 10em;
-        height: 10em;
+        width: 7.5em;
+        height: 7.5em;
     }
 
     .productos__consolas__img{
         margin-top: 0.5em;
-        width: 10em;
-        height: 10em;
+        width: 7.5em;
+        height: 7.5em;
     }
-
-/*-------------Contacto/main-------------*/
-
-.table__titulo{
-    font-size: 1.4em;
-}
-
-.table__label{
-    font-size: 1em;
-}
 
 /*-------------Politicadeprivacidad/main-------------*/
     
@@ -1123,12 +920,5 @@ margin-right: 1em;
         margin-left:0.5em;
         margin-right:0.5em;
     }
-
-}
-
-
-/*------------------------------------------------------HOVER---------------------------------------------------------*/
-
-@media (hover: hover) {
 
 }
