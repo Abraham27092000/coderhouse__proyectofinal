@@ -1,0 +1,44 @@
+/*------------------------------PSEUDOCLASES------------------------------*/
+
+/*----------------------scroll----------------------*/
+
+body::-webkit-scrollbar{
+    width: 0.5em;
+    background: #0f1011;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-image: radial-gradient(#1d1b2f,#0e5569);
+    border-radius: 4em;
+}
+
+/*-----------------Header-----------------*/
+
+.header__titulo:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.header__lista:hover{
+    transform: scale(1.1);
+}
+
+/*------------------Main------------------*/
+
+.main__img:hover{
+    transform: scale(1.1); 
+    border-radius: 1em;
+    transition:3s;
+    transition-timing-function: ease-in;
+}
+
+/*-----------------Footer-----------------*/
+
+.footer__lista__hover:hover{
+    transform: scale(1.1);
+    color:white;
+}
+
+.footer__copyright__hover:hover{
+    transform: scale(1.1);
+}
