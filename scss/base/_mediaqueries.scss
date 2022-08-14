@@ -167,8 +167,10 @@
             margin-left:1em;}
             .productos__aviso{
                 font-size:1em;}
-            
-        
+                .productos__index__img{
+                    height: 10em;
+                    width: 10em;}
+
     .membresia__titulo__index{
         font-size: 1.2em;
         margin-left: 0.5em;}
@@ -177,29 +179,10 @@
             margin-left:1em;}
             .membresia__aviso{
                 font-size: 1em;}
+                .membresia__index__img{
+                    height: 10em;
+                    width: 10em;}
 
-
-.navbar{
-    flex-direction: column;
-    width:100%;}   
-
-.productos__membresia{
-    margin-left:15%;
-    .productos__index__img{
-        height: 10em;
-        width: 10em;}
-    .membresia__index__img{
-        height: 10em;
-        width: 10em;}
-        .productos__membresia__img{
-            flex-direction: column;
-            align-items: center;}
-    }
-    
-.main{
-    flex-direction: column;
-    width:100%;}
-    
 .footer__flexbox{
     display:flex;
     align-items: center;
@@ -210,7 +193,7 @@
     margin-left: 1.5em;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    font-size: 1.4em;
+    font-size: 1.4em;}
     .acercade__texto{
         text-indent:0%;
         text-align: left;
@@ -218,19 +201,17 @@
         .acercade__img{
             height: 10em;
             width: 10em;}
-    }
 /*---------------Membresia----------------*/
 .membresia__titulo{
     font-size: 1.4em;
     margin-top:0.5em;
-    margin-left:5em;
+    margin-left:5em;}
     .membresia__texto{
         text-align: none;
         font-size:1em;}
         .membresia__img{
             height: 10em;
             width: 10em;}
-    }
 /*-------------Productos/main-------------*/
 .productos__flexbox__televisoresordenadores{
     display:flex;
@@ -249,7 +230,7 @@
 .productos__titulo{
     font-size:1.4em;
     margin-top: 1em;
-    margin-left: 1em;   
+    margin-left: 1em;}
 
         .productos__televisores__titulo{
             font-size: 1.2em;
@@ -293,13 +274,11 @@
                         margin-top: 0.5em;
                         width: 7.5em;
                         height: 7.5em;}
-    }
 /*-------------Politicadeprivacidad/main-------------*/
 .politicadeprivacidad__titulo{
-    margin: 1em;    
+    margin: 1em;}
     .politicadeprivacidad__texto{
         text-align: none;
         margin-left:0.5em;
         margin-right:0.5em;}
-    }
 }
