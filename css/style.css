@@ -1,7 +1,7 @@
 /*-------------------------------------------HEADER-------------------------------------------*/
 .header {
   background-color: #18181B; }
-  .header .header__titulo {
+  .header__titulo {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 18px;
@@ -244,26 +244,26 @@
 .footer {
   background-color: #18181B;
   padding: 1em; }
-  .footer .footer__titulo {
+  .footer__titulo {
     color: whitesmoke;
     margin-left: 1em; }
-  .footer .footer__titulo__redes {
+  .footer__titulo__redes {
     color: whitesmoke;
     margin-left: 0.5em; }
-  .footer .footer__img {
+  .footer__img {
     margin-left: 0.7em; }
-  .footer .footer__texto {
+  .footer__texto {
     color: white; }
-  .footer .footer__lista__enlace {
+  .footer__lista__enlace {
     color: white; }
-  .footer .footer__copyright {
+  .footer__copyright {
     color: whitesmoke;
     background: rgba(0, 0, 0, 0.2); }
 
 /*------------------------grid__flexbox__layout--------------------------*/
 .header {
   grid-area: auto; }
-  .header .header__lista__flexbox {
+  .header__lista__flexbox {
     display: flex;
     justify-content: end; }
 
@@ -279,10 +279,10 @@
 
 .footer {
   grid-area: auto; }
-  .footer .footer__flexbox {
+  .footer__flexbox {
     display: flex;
     justify-content: space-around; }
-  .footer .footer__copyright__flexbox {
+  .footer__copyright__flexbox {
     display: flex;
     justify-content: center; }
 
