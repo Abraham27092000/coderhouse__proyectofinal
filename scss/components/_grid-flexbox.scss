@@ -1,9 +1,10 @@
+@import "./base/mixins";
 /*------------------------grid__flexbox__layout--------------------------*/
 .header{
     grid-area:auto;
     &__lista__flexbox{
         display:flex;
-        justify-content: end; }
+        justify-content: end;}
 }
 
 .main{
@@ -12,9 +13,7 @@
 }
 
 .productos__membresia__img{
-    display:flex;
-    justify-content: space-evenly;
-    align-items: center;
+    @include flex (flex, space-evenly, center);
     margin: 20px; 
 }
 
@@ -24,35 +23,27 @@
         display:flex;
         justify-content: space-around; }
         &__copyright__flexbox{
-            display:flex;
-            justify-content:center; }
+            @extend %flex-center;}
 }
 /*--------------acercade__pages---------------*/
 
 .acercade__flexbox{
-    display: flex;
-    justify-content: center;
+    @extend %flex-center;
 }
+
 /*--------------membresia__pages---------------*/
 
 .pages__membresia__flexbox{
-    display: flex;
-    justify-content: center;
+    @extend %flex-center;
 }
 /*--------------productos__pages---------------*/
 
 .productos__flexbox__televisoresordenadores{
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap
+    @extend %flex-productos;
 }
 
 .productos__flexbox__movilesconsolas{
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap
+    @extend %flex-productos;
 }
 /*----------------------------------------GRID__CONTAINER-------------------------------------*/
 .grid__container{

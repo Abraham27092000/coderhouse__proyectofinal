@@ -14,6 +14,8 @@
 
 /*--------------------------------------------MAIN-------------------------------------------*/
 /*-------------------------index.html--------------------------*/
+/*--------------------------------------------MAIN-------------------------------------------*/
+/*-------------------------index.html--------------------------*/
 .hero__video {
   width: 100%;
   height: 25em; }
@@ -107,8 +109,8 @@
 .acercade__img {
   background-image: radial-gradient(#29515b, #0e345b);
   margin: 1em;
-  height: 20em;
-  width: 20em;
+  height: 24em;
+  width: 24em;
   margin-bottom: 2.5em; }
 
 /*-------------------------membresia.html-------------------------*/
@@ -134,8 +136,8 @@
 
 .membresia__img {
   margin: 1em;
-  height: 20em;
-  width: 20em;
+  height: 24em;
+  width: 24em;
   background-image: radial-gradient(#29515b, #0e345b);
   margin-bottom: 2.5em; }
 
@@ -260,6 +262,8 @@
     color: whitesmoke;
     background: rgba(0, 0, 0, 0.2); }
 
+/*------------FLEXBOX------------*/
+/*------------FLEXBOX------------*/
 /*------------------------grid__flexbox__layout--------------------------*/
 .header {
   grid-area: auto; }
@@ -282,33 +286,10 @@
   .footer__flexbox {
     display: flex;
     justify-content: space-around; }
-  .footer__copyright__flexbox {
-    display: flex;
-    justify-content: center; }
 
 /*--------------acercade__pages---------------*/
-.acercade__flexbox {
-  display: flex;
-  justify-content: center; }
-
 /*--------------membresia__pages---------------*/
-.pages__membresia__flexbox {
-  display: flex;
-  justify-content: center; }
-
 /*--------------productos__pages---------------*/
-.productos__flexbox__televisoresordenadores {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap; }
-
-.productos__flexbox__movilesconsolas {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap; }
-
 /*----------------------------------------GRID__CONTAINER-------------------------------------*/
 .grid__container {
   display: grid;
@@ -340,6 +321,9 @@ body::-webkit-scrollbar-thumb {
   transition-timing-function: ease-in; }
 
 /*-----------------Footer-----------------*/
+.footer__lista__enlace:hover {
+  color: gray; }
+
 .footer__lista__hover:hover {
   transform: scale(1.1);
   color: white; }
@@ -356,6 +340,22 @@ html, body {
   overflow-x: hidden;
   min-height: 100vh; }
 
+/*--------------------------------------------MAIN-------------------------------------------*/
+/*-------------------------index.html--------------------------*/
+/*------------FLEXBOX------------*/
+/*------------FLEXBOX------------*/
+/*------------FLEXBOX------------*/
+.footer__copyright__flexbox, .acercade__flexbox, .pages__membresia__flexbox {
+  display: flex;
+  justify-content: center; }
+
+.productos__flexbox__televisoresordenadores, .productos__flexbox__movilesconsolas {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; }
+
+/*------------FLEXBOX------------*/
 /*---------------------------------------------------------RESPONSIVE--------------------------------------------------------*/
 /*-------------------------TABLET------------------------*/
 @media screen and (max-width: 1150px) {
@@ -363,10 +363,11 @@ html, body {
   .hero {
     display: flex;
     margin-top: 2%; }
-    .hero .hero__video {
+    .hero__video {
       width: 45%;
-      height: 15em; }
-    .hero .hero__texto {
+      height: 15em;
+      margin-left: 2.5em; }
+    .hero__texto {
       width: 40%;
       text-align: left;
       margin: 0;
@@ -393,79 +394,19 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .acercade__flexbox__responsive .acercade__titulo {
+    .acercade__flexbox__responsive__titulo {
       margin-left: 3em; }
-    .acercade__flexbox__responsive .acercade__texto {
+    .acercade__flexbox__responsive__texto {
       margin-right: 1em; }
-    .acercade__flexbox__responsive .pages__acercade__img {
-      width: 30em;
-      height: 30em;
-      margin-top: 5em;
-      margin-bottom: 6em; }
   /*-------------membresia/main-------------*/
   .membresia__flexbox__responsive {
     display: flex;
     flex-direction: column;
     align-items: center; }
-    .membresia__flexbox__responsive .membresia__titulo {
+    .membresia__flexbox__responsive__titulo {
       margin-left: 3em; }
-    .membresia__flexbox__responsive .membresia__texto {
-      margin-right: 1em; }
-    .membresia__flexbox__responsive .pages__membresia__img {
-      width: 30em;
-      height: 30em;
-      margin-top: 5em;
-      margin-bottom: 5em; }
-  /*-------------Productos/main-------------*/
-  .productos__titulo {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 1em; }
-    .productos__titulo .productos__televisores__titulo {
-      margin-bottom: 1em;
-      margin-left: 1em; }
-    .productos__titulo .productos__ordenadores__titulo {
-      margin-bottom: 1em;
-      margin-left: 1em; }
-    .productos__titulo .productos__moviles__titulo {
-      margin-bottom: 1em;
-      margin-left: 1em; }
-    .productos__titulo .productos__consolas__titulo {
-      margin-bottom: 1em;
-      margin-left: 1em; }
-    .productos__titulo .productos__televisores__aviso {
-      font-weight: 900;
-      margin-bottom: 1em;
-      margin-left: 1em; }
-    .productos__titulo .productos__ordenadores__aviso {
-      font-weight: 900;
-      margin-bottom: 1em;
-      margin-left: 1em; }
-    .productos__titulo .productos__moviles__aviso {
-      font-weight: 900;
-      margin-bottom: 1em;
-      margin-left: 1em; }
-    .productos__titulo .productos__consolas__aviso {
-      font-weight: 900;
-      margin-bottom: 1em;
-      margin-left: 1em; }
-    .productos__titulo .productos__televisores__img {
-      margin-bottom: 1em;
-      height: 20.5em;
-      width: 20.5em;
-      margin-bottom: 1.5em; }
-    .productos__titulo .productos__ordenadores__img {
-      margin-bottom: 1em;
-      height: 13em;
-      width: 13em; }
-    .productos__titulo .productos__moviles__img {
-      margin-bottom: 1em;
-      height: 13em;
-      width: 13em; }
-    .productos__titulo .productos__consolas__img {
-      margin-bottom: 1em;
-      height: 13em;
-      width: 13em; } }
+    .membresia__flexbox__responsive__texto {
+      margin-right: 1em; } }
 
 /*-------------------------MOVIL------------------------*/
 @media screen and (max-width: 749px) {
@@ -474,16 +415,16 @@ html, body {
     width: 100%;
     display: flex;
     flex-direction: column; }
-    .hero .hero__titulo {
+    .hero__titulo {
       font-size: 2em; }
-    .hero .hero__texto {
+    .hero__texto {
       width: 75%;
       text-indent: 0%;
       text-align: start;
       text-align: center;
       font-size: 1em;
       margin-top: 0.5em; }
-    .hero .hero__video {
+    .hero__video {
       width: 100%;
       height: 200px; }
   .footer__flexbox__mobile {
@@ -530,8 +471,8 @@ html, body {
     text-align: left;
     font-size: 1em; }
   .acercade__img {
-    height: 10em;
-    width: 10em; }
+    width: 20em;
+    height: 20em; }
   /*---------------Membresia----------------*/
   .membresia__titulo {
     font-size: 1.4em;
@@ -541,8 +482,8 @@ html, body {
     text-align: none;
     font-size: 1em; }
   .membresia__img {
-    height: 10em;
-    width: 10em; }
+    width: 20em;
+    height: 20em; }
   /*-------------Productos/main-------------*/
   .productos__flexbox__televisoresordenadores {
     display: flex;
@@ -603,7 +544,7 @@ html, body {
   /*-------------Politicadeprivacidad/main-------------*/
   .politicadeprivacidad__titulo {
     margin: 1em; }
-  .politicadeprivacidad__texto {
-    text-align: none;
-    margin-left: 0.5em;
-    margin-right: 0.5em; } }
+    .politicadeprivacidad__titulo .politicadeprivacidad__texto {
+      text-align: none;
+      margin-left: 0.5em;
+      margin-right: 0.5em; } }
