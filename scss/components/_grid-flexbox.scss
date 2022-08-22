@@ -45,6 +45,16 @@
 .productos__flexbox__movilesconsolas{
     @extend %flex-productos;
 }
+
+/*--------------contacto_pages---------------*/
+
+.contacto__flexbox{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    
+}
+
 /*----------------------------------------GRID__CONTAINER-------------------------------------*/
 .grid__container{
     display:grid;
