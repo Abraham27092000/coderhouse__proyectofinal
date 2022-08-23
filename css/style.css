@@ -463,7 +463,7 @@ html, body {
     flex-direction: column; }
   .footer__flexbox {
     display: flex;
-    padding-left: 5em;
+    padding-left: 3.5em;
     align-items: flex-start;
     flex-direction: column;
     margin-bottom: 1em; }
@@ -554,4 +554,7 @@ html, body {
     .politicadeprivacidad__titulo .politicadeprivacidad__texto {
       text-align: none;
       margin-left: 0.5em;
-      margin-right: 0.5em; } }
+      margin-right: 0.5em; }
+  /*---------------------Contacto---------------------*/
+  .contacto__flexbox {
+    flex-direction: column; } }
