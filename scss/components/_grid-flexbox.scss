@@ -23,7 +23,8 @@
         display:flex;
         justify-content: space-around; }
         &__copyright__flexbox{
-            @extend %flex-center;}
+            display:flex;
+            justify-content:center;}
 }
 /*--------------acercade__pages---------------*/
 

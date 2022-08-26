@@ -42,29 +42,33 @@
     margin-top: 1em;}
 
 /*-------------Acercade/main-------------*/
-.acercade__flexbox__responsive{
+.acercade__flexbox{
     display:flex;
     flex-direction: column;
     align-items: center;
-    &__titulo{
-        margin-left:3em;}
-        &__texto{
-            margin-right: 1em;}
+    
+.acercade__titulo{
+    margin-top:2.5em;}
+        
+.acercade__texto{
+    margin:2em;}
 }
 /*-------------membresia/main-------------*/
-.membresia__flexbox__responsive{
+.pages__membresia__flexbox{
     display:flex;
     flex-direction: column;
-    align-items: center;
-    &__titulo{
-        margin-left: 3em;}
-        &__texto{
-            margin-right: 1em;}
-    }
+    align-items: center;}
+
+.membresia__titulo{
+    margin-top:2.5em;}
+        
+.membresia__texto{
+    margin:2em;}
+    
 }
 /*-------------------------MOVIL------------------------*/
     
-@media screen and (max-width:749px){  
+@media screen and (max-width:766px){  
     
 /*----------Index/nav/footer----------*/
 .hero{
@@ -125,32 +129,37 @@
     margin-bottom: 1em;}
 /*----------------Acercade----------------*/ 
 .acercade__titulo{
-    margin-left: 1.5em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    font-size: 1.4em;}
+    font-size: 1.4em;
+    margin-top:0.5em;
+    margin-left:3em;
+    margin-bottom:0}
 
 .acercade__texto{
-    text-indent:0%;
-    text-align: left;
-    font-size: 1em;}
+    text-align: none;
+    font-size:1em;
+    margin-right:1em;
+    margin-left:1em;}
 
 .acercade__img{
-    width:20em;
-    height:20em;}
+    width:15em;
+    height:15em;}
 /*---------------Membresia----------------*/
 .membresia__titulo{
     font-size: 1.4em;
     margin-top:0.5em;
-    margin-left:5em;}
+    margin-left:5em;
+    margin-bottom:0}
 
 .membresia__texto{
     text-align: none;
-    font-size:1em;}
+    font-size:1em;
+    margin-right:1em;
+    margin-left:1em;}
 
 .membresia__img{
-    width:20em;
-    height:20em;}
+    width:15em;
+    height:15em;
+    margin-top:0;}
 /*-------------Productos/main-------------*/
 .productos__flexbox__televisoresordenadores{
     display:flex;
