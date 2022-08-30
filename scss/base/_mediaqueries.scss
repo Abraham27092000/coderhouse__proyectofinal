@@ -13,7 +13,8 @@
         height: 15em;}
         &__texto{
             width:40%;
-            text-align: start;
+            text-align: justify;
+            text-indent: 0.5em;
             margin:0;
             margin-left: 3.2em;
             margin-top:1em;}
@@ -47,14 +48,19 @@
 .acercade__flexbox{
     display:flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;}
     
 .acercade__titulo{
     margin-top:2.5em;}
         
 .acercade__texto{
     margin:2em;}
-}
+
+.acercade__img{
+    margin-top:2em;
+    margin-bottom:5em;
+    width: 35em;
+    height:35em;}
 /*-------------membresia/main-------------*/
 .pages__membresia__flexbox{
     display:flex;
@@ -62,11 +68,17 @@
     align-items: center;}
 
 .membresia__titulo{
-    margin-top:2.5em;
-    margin-bottom:0;}
+    margin-top:2.5em;}
 
 .membresia__texto{
     margin:2em;}
+
+.membresia__img{
+    margin-top:1em;
+    margin-top:2em;
+    margin-bottom:5em;
+    width: 35em;
+    height:35em;}
 
 }
 /*-------------------------MOVIL------------------------*/
@@ -82,8 +94,8 @@
         font-size: 2em;}
         &__texto{
             width:75%;
-            text-indent: 0%;
-            text-align:start;
+            text-indent: 0.5em;
+            text-align:justify;
             font-size: 1em;
             margin-top: 1em;}
             &__video{
@@ -128,11 +140,11 @@
     padding-left: 3.5em;
     align-items: flex-start;
     flex-direction: column;
+    margin-top: 1em;
     margin-bottom: 1em;}
 /*----------------Acercade----------------*/ 
 .acercade__titulo{
     font-size: 1.4em;
-    margin-top:0.5em;
     margin-bottom:0}
 
 .acercade__texto{
@@ -143,12 +155,12 @@
 
 .acercade__img{
     width:15em;
-    height:15em;}
+    height:15em;
+    margin-top:0;}
 /*---------------Membresia----------------*/
 .membresia__titulo{
     font-size: 1.4em;
-    margin-top:0.5em;
-    margin-left:5em;
+    margin-top:2em;
     margin-bottom:0}
 
 .membresia__texto{
@@ -221,7 +233,6 @@
     height: 15em}
 .productos__tablets__img{
     margin-top: 0.5em;
-    margin-bottom: 3em;
     width: 15em;
     height: 15em}
 /*-------------Politicadeprivacidad/main-------------*/
