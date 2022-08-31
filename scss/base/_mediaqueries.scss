@@ -80,6 +80,11 @@
     width: 35em;
     height:35em;}
 
+/*-------------politicadeprivacidad/main-------------*/
+.politicadeprivacidad__titulo{
+    margin-left:0.7em;
+}
+
 }
 /*-------------------------MOVIL------------------------*/
     
@@ -191,7 +196,8 @@
 .productos__titulo{
     font-size:1.4em;
     margin-top: 1em;
-    margin-right:2em;}
+    margin-right:1em;
+    margin-left:1em;}
 
 .productos__televisores__titulo{
     font-size: 1.2em;
@@ -238,6 +244,8 @@
 /*-------------Politicadeprivacidad/main-------------*/
 .politicadeprivacidad__titulo{
     margin: 1em;
+    margin-left:1em;
+    text-indent: 0%;
     .politicadeprivacidad__texto{
         text-align: none;
         margin-left:0.5em;

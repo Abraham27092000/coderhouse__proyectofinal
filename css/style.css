@@ -38,7 +38,7 @@
 .productos__membresia {
   color: black;
   font-weight: 500;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.6em; }
 
 .productos__titulo__index {
@@ -93,7 +93,7 @@
 .acercade__titulo {
   color: black;
   font-weight: 500;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.6em;
   margin-top: 0.5em;
   margin-bottom: 1em; }
@@ -122,7 +122,7 @@
 .membresia__titulo {
   color: black;
   font-weight: 500;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.6em;
   margin-top: 0.5em;
   margin-bottom: 1em; }
@@ -150,7 +150,7 @@
 .politicadeprivacidad__titulo {
   color: black;
   font-weight: 500;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-left: 0.5em;
   margin-top: 1em;
   text-indent: 1.5%;
@@ -163,13 +163,13 @@
   margin-left: 2em;
   margin-right: 1em;
   margin-bottom: 1em;
-  text-indent: 1%; }
+  text-indent: 1em; }
 
 /*------------------------productos.html--------------------------*/
 .productos__titulo {
   color: black;
   font-weight: 500;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.6em;
   margin-top: 1em;
   margin-bottom: 0.5em;
@@ -177,7 +177,7 @@
 
 .productos__televisores__titulo {
   color: black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.2em;
   margin-top: 1em;
   margin-bottom: 0.5em; }
@@ -195,7 +195,7 @@
 
 .productos__ordenadores__titulo {
   color: black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.2em;
   margin-top: 1em;
   margin-bottom: 0.5em; }
@@ -212,7 +212,7 @@
 
 .productos__moviles__titulo {
   color: black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.2em;
   margin-top: 1em;
   margin-bottom: 0.5em; }
@@ -230,7 +230,7 @@
 
 .productos__tablets__titulo {
   color: black;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.2em;
   margin-top: 1em;
   margin-bottom: 0.5em; }
@@ -245,6 +245,10 @@
   width: 320px;
   margin-top: 1em;
   margin-bottom: 2em; }
+
+/*------------------------contacto.html--------------------------*/
+.contacto__flexbox {
+  margin-top: 20px; }
 
 .footer {
   background-color: #18181B;
@@ -432,7 +436,10 @@ html, body {
     margin-top: 2em;
     margin-bottom: 5em;
     width: 35em;
-    height: 35em; } }
+    height: 35em; }
+  /*-------------politicadeprivacidad/main-------------*/
+  .politicadeprivacidad__titulo {
+    margin-left: 0.7em; } }
 
 /*-------------------------MOVIL------------------------*/
 @media screen and (max-width: 766px) {
@@ -530,7 +537,8 @@ html, body {
   .productos__titulo {
     font-size: 1.4em;
     margin-top: 1em;
-    margin-right: 2em; }
+    margin-right: 1em;
+    margin-left: 1em; }
   .productos__televisores__titulo {
     font-size: 1.2em;
     margin-top: 0.5em;
@@ -573,7 +581,9 @@ html, body {
     height: 15em; }
   /*-------------Politicadeprivacidad/main-------------*/
   .politicadeprivacidad__titulo {
-    margin: 1em; }
+    margin: 1em;
+    margin-left: 1em;
+    text-indent: 0%; }
     .politicadeprivacidad__titulo .politicadeprivacidad__texto {
       text-align: none;
       margin-left: 0.5em;
