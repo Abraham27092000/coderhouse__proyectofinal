@@ -14,8 +14,6 @@
 
 /*--------------------------------------------MAIN-------------------------------------------*/
 /*-------------------------index.html--------------------------*/
-/*--------------------------------------------MAIN-------------------------------------------*/
-/*-------------------------index.html--------------------------*/
 .hero__video {
   width: 100%;
   height: 25em; }
@@ -250,6 +248,12 @@
 .contacto__flexbox {
   margin-top: 20px; }
 
+.contacto__mapa {
+  width: 400px;
+  height: 400px;
+  margin-top: 2em;
+  margin-left: 3em; }
+
 .footer {
   background-color: #18181B;
   padding: 1em; }
@@ -269,8 +273,6 @@
     color: whitesmoke;
     background: rgba(0, 0, 0, 0.2); }
 
-/*------------FLEXBOX------------*/
-/*------------FLEXBOX------------*/
 /*------------------------grid__flexbox__layout--------------------------*/
 .header {
   grid-area: auto; }
@@ -297,9 +299,6 @@
     display: flex;
     justify-content: center; }
 
-/*--------------acercade__pages---------------*/
-/*--------------membresia__pages---------------*/
-/*--------------productos__pages---------------*/
 /*--------------contacto_pages---------------*/
 .contacto__flexbox {
   display: flex;
@@ -309,7 +308,11 @@
 /*----------------------------------------GRID__CONTAINER-------------------------------------*/
 .grid__container {
   display: grid;
-  grid-template-areas: "header" "navbar" "main" "footer"; }
+  grid-template-areas: 
+  "header"
+  "navbar"
+  "main"
+  "footer"; }
 
 /*------------------------------PSEUDOCLASES------------------------------*/
 /*----------------------scroll----------------------*/
@@ -356,10 +359,6 @@ html, body {
   min-height: 100vh;
   overflow-x: hidden; }
 
-/*--------------------------------------------MAIN-------------------------------------------*/
-/*-------------------------index.html--------------------------*/
-/*------------FLEXBOX------------*/
-/*------------FLEXBOX------------*/
 /*------------FLEXBOX------------*/
 .acercade__flexbox, .pages__membresia__flexbox {
   display: flex;
@@ -372,7 +371,6 @@ html, body {
   align-items: center;
   flex-wrap: wrap; }
 
-/*------------FLEXBOX------------*/
 /*---------------------------------------------------------RESPONSIVE--------------------------------------------------------*/
 /*-------------------------TABLET------------------------*/
 @media screen and (max-width: 1150px) {
@@ -414,7 +412,7 @@ html, body {
     flex-direction: column;
     align-items: center; }
   .acercade__titulo {
-    margin-top: 2.5em; }
+    margin-top: 2em; }
   .acercade__texto {
     margin: 2em; }
   .acercade__img {
@@ -428,7 +426,7 @@ html, body {
     flex-direction: column;
     align-items: center; }
   .membresia__titulo {
-    margin-top: 2.5em; }
+    margin-top: 2em; }
   .membresia__texto {
     margin: 2em; }
   .membresia__img {
@@ -439,7 +437,16 @@ html, body {
     height: 35em; }
   /*-------------politicadeprivacidad/main-------------*/
   .politicadeprivacidad__titulo {
-    margin-left: 0.7em; } }
+    margin-left: 0.7em; }
+  /*------------------------contacto.html--------------------------*/
+  .contacto__flexbox {
+    margin-top: 10px;
+    margin-right: 2.5em; }
+  .contacto__mapa {
+    width: 300px;
+    height: 300px;
+    margin-top: 2em;
+    margin-left: 3em; } }
 
 /*-------------------------MOVIL------------------------*/
 @media screen and (max-width: 766px) {
@@ -590,4 +597,11 @@ html, body {
       margin-right: 0.5em; }
   /*---------------------Contacto---------------------*/
   .contacto__flexbox {
-    flex-direction: column; } }
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 3em; }
+  .contacto__mapa {
+    width: 15.625em;
+    height: 15.625em;
+    margin: 0; } }

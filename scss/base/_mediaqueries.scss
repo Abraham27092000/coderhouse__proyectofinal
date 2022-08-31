@@ -51,7 +51,7 @@
     align-items: center;}
     
 .acercade__titulo{
-    margin-top:2.5em;}
+    margin-top:2em;}
         
 .acercade__texto{
     margin:2em;}
@@ -68,7 +68,7 @@
     align-items: center;}
 
 .membresia__titulo{
-    margin-top:2.5em;}
+    margin-top:2em;}
 
 .membresia__texto{
     margin:2em;}
@@ -83,6 +83,19 @@
 /*-------------politicadeprivacidad/main-------------*/
 .politicadeprivacidad__titulo{
     margin-left:0.7em;
+}
+
+/*------------------------contacto.html--------------------------*/
+.contacto__flexbox{
+    margin-top:10px;
+    margin-right: 2.5em;
+}
+
+.contacto__mapa{
+    width:300px;
+    height:300px;
+    margin-top:2em;
+    margin-left: 3em;
 }
 
 }
@@ -150,7 +163,7 @@
 /*----------------Acercade----------------*/ 
 .acercade__titulo{
     font-size: 1.4em;
-    margin-bottom:0}
+    margin-bottom:0;}
 
 .acercade__texto{
     text-align: none;
@@ -255,6 +268,15 @@
 /*---------------------Contacto---------------------*/
 .contacto__flexbox{
     flex-direction:column;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:3em;
+}
+
+.contacto__mapa{
+    width:15.625em;
+    height:15.625em;
+    margin:0;
 }
 
 }

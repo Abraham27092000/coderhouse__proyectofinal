@@ -53,15 +53,15 @@
     display:flex;
     align-items:center;
     justify-content:center;
-    
 }
 
 /*----------------------------------------GRID__CONTAINER-------------------------------------*/
+
 .grid__container{
     display:grid;
     grid-template-areas:
-        "header"
-        "navbar"
-        "main"
-        "footer";
+    "header"
+    "navbar"
+    "main"
+    "footer";
 }
